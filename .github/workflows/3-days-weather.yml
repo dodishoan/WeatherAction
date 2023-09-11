@@ -26,6 +26,6 @@ jobs:
           subject: 3天天气预报 (${{env.REPORT_DATE}})
           body: 天气预报
           to: ${{ secrets.MAIL_RECEIPIENT }}
-          from: GitHub Actions
+          from: wttr.in 天气预报
           content_type: text/html
           attachments: result.png
