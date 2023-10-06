@@ -2,8 +2,8 @@ name: '3-days-weather Bot'
  
 on:
   push:
-  schedule:
-    - cron: '50 8,11,3 * * MON-FRI' # run at 4:50 evening, 7:50 morning and 11:50 afternoon in China
+#  schedule:
+#    - cron: '50 8,11,3 * * MON-FRI' # run at 4:50 evening, 7:50 morning and 11:50 afternoon in China
   workflow_dispatch:
 jobs:
   bot:
