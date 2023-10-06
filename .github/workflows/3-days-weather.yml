@@ -28,4 +28,4 @@ jobs:
           to: ${{ secrets.MAIL_RECEIPIENT }}
           from: wttr.in 天气预报
           content_type: text/html
-          attachments: result.png
+          attachments: result.html
